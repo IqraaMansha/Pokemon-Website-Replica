@@ -1,0 +1,512 @@
+body {
+  background-image: url("images/b.jpg");
+  background-repeat: repeat;
+  position: sticky;
+  background-size: cover;
+}
+
+.navigation {
+  width: auto;
+  background-color: white;
+  margin-top: 0%;
+  margin-left: 10%;
+  position: fixed;
+  top: 2%;
+}
+
+.home {
+  width: 80px;
+  padding: 25px;
+  display: inline-block;
+  border-bottom: 5px solid grey;
+  border-bottom-left-radius: 5px;
+}
+
+.pokedox {
+  width: 80px;
+  padding: 25px;
+  display: inline-block;
+  border-bottom: 5px solid rgb(134, 1, 1);
+}
+
+.games {
+  width: 80px;
+  padding: 25px;
+  display: inline-block;
+  border-bottom: 5px solid rgb(235, 109, 5);
+}
+
+.card {
+  width: 80px;
+  padding: 25px;
+  display: inline-block;
+  border-bottom: 5px solid rgb(203, 218, 0);
+}
+
+.tv {
+  width: 80px;
+  padding: 25px;
+  display: inline-block;
+  border-bottom: 5px solid rgb(3, 112, 21);
+}
+
+.events {
+  width: 80px;
+  padding: 25px;
+  display: inline-block;
+  border-bottom: 5px solid rgb(11, 182, 235);
+}
+
+.news {
+  width: 80px;
+  padding: 25px;
+  display: inline-block;
+  border-bottom: 5px solid rgb(21, 2, 131);
+  border-bottom-right-radius: 5px;
+}
+
+.header a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+  text-align: center;
+  padding: 10px;
+}
+
+.home:hover {
+  background-color: grey;
+  padding-top: 60px;
+}
+
+.pokedox:hover {
+  background-color: rgb(134, 1, 1);
+  padding-top: 60px;
+}
+
+.games:hover {
+  background-color: rgb(235, 109, 5);
+}
+
+.card:hover {
+  background-color: rgb(203, 218, 0);
+}
+
+.tv:hover {
+  background-color: rgb(3, 112, 21);
+  padding-top: 40px;
+}
+
+.events:hover {
+  background-color: rgb(11, 182, 235);
+  padding-top: 20px;
+}
+
+.news:hover {
+  background-color: rgb(21, 2, 131);
+  padding-top: 60px;
+}
+
+li,
+a:hover {
+  color: white;
+}
+
+.main {
+  height: 1500px;
+  width: 80%;
+  margin: 10% auto 13%;
+}
+
+.pinkcard {
+  height: 450px;
+  width: 600px;
+  background-color: rgb(255, 130, 192);
+  border-radius: 5px;
+  float: left;
+
+}
+
+.pinkcard img {
+  width: 600px;
+  height: 350px;
+  border-radius: 5px;
+}
+
+.boldpara {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 15px 0px 0px 15px;
+  font-size: 20px;
+}
+
+.normalpara {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 10px 0px 0px 15px;
+  padding: 0px 0px 0px 15px;
+  color: rgb(185, 6, 96);
+}
+
+.purplecard {
+  float: right;
+  width: 300px;
+  height: 250px;
+  background-color: #b990ee;
+  border-radius: 5px;
+  margin-right: 10%;
+
+}
+
+.purplecard img {
+  width: 300px;
+  height: 150px;
+}
+
+.greycard {
+  width: 300px;
+  height: 170px;
+  background-color: grey;
+  float: right;
+  margin-right: 10%;
+  margin-top: 2%;
+
+}
+
+.greycard img {
+  width: 130px;
+  height: 170px;
+}
+
+.blackpara {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: rgb(1, 2, 43);
+  height: 150px;
+  width: 150px;
+  float: right;
+}
+
+.blackcard {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(34, 32, 33);
+  border-radius: 5px;
+  float: left;
+  margin-top: 2%;
+
+}
+
+.blackcard img {
+  height: 180px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.orangecard {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(223, 82, 17);
+  border-radius: 5px;
+  float: right;
+  margin-top: 2%;
+  margin-right: 5%;
+
+}
+
+.orangecard img {
+  height: 180px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.yellowcard {
+  width: 300px;
+  height: 250px;
+  background-color: rgb(238, 180, 56);
+  border-radius: 5px;
+  float: right;
+  margin-top: 2%;
+  margin-right: 10%;
+
+}
+
+.yellowcard img {
+  height: 150px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.darkblackcard {
+  width: 300px;
+  height: 350px;
+  background-color: rgb(20, 20, 20);
+  border-radius: 5px;
+  float: left;
+  margin-top: 2%;
+}
+
+.darkblackcard img {
+  height: 150px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.darkpurplecard {
+  height: 350px;
+  width: 300px;
+  background-color: rgb(194, 117, 238);
+  border-radius: 5px;
+  float: left;
+  margin-top: 2%;
+  margin-left: 4%;
+
+}
+
+.darkpurplecard img {
+  height: 150px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.darkbluecard {
+  height: 350px;
+  width: 300px;
+  background-color: #1847d7;
+  border-radius: 5px;
+  float: right;
+  margin-top: 2%;
+  margin-right: 5%;
+
+}
+
+.darkbluecard img {
+  height: 150px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.lightbluecard {
+  height: 350px;
+  width: 300px;
+  float: left;
+  background-color: #1b82b1;
+  border-radius: 5px;
+  margin-top: 6%;
+
+}
+
+.lightbluecard img {
+  height: 150px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.lightpinkcard {
+  height: 350px;
+  width: 300px;
+  background-color: rgb(253, 129, 212);
+  border-radius: 5px;
+  float: left;
+  margin-top: 10%;
+  margin-left: 3%;
+
+}
+
+.lightpinkcard img {
+  height: 150px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.darkgreycard {
+  height: 350px;
+  width: 300px;
+  background-color: #8b8b8b;
+  border-radius: 5px;
+  float: right;
+  margin-top: 4%;
+  margin-right: 6%;
+
+}
+
+.darkgreycard img {
+  height: 150px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+#blackcardpara {
+  color: rgb(160, 154, 154);
+  margin: 5px 0px 0px 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.simpleblackpara {
+  color: rgb(36, 34, 34);
+  margin: 15px 0px 0px 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bluecardpara {
+  color: rgb(144, 194, 241);
+  margin: 15px 0px 0px 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#greypara {
+  color: #cfc9c9;
+  margin: 15px 0px 0px 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#boldgreypara {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 15px 0px 0px 15px;
+  font-size: 20px;
+}
+
+.pinkcard:hover {
+  margin: 1% 0px 1% 0px;
+  background-color: rgba(231, 33, 142, 0.808);
+  cursor: pointer;
+}
+
+.purplecard:hover {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  background-color: #9a60e7;
+  cursor: pointer;
+}
+
+.greycard:hover {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  background-color: #6e6c6c;
+  cursor: pointer;
+}
+
+.blackcard:hover {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  cursor: pointer;
+}
+
+.orangecard:hover {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  background-color: #a73f03;
+  cursor: pointer;
+}
+
+.yellowcard:hover {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  background-color: #c2880c;
+  cursor: pointer;
+}
+
+.darkblackcard:hover {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  cursor: pointer;
+}
+
+.darkpurplecard:hover {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  background-color: rgb(174, 64, 238);
+  cursor: pointer;
+}
+
+.darkbluecard:hover {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  background-color: #130b86;
+  cursor: pointer;
+}
+
+.lightbluecard:hover {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  background-color: #075799;
+  cursor: pointer;
+}
+
+.lightpinkcard:hover {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  background-color: #d60a99;
+  cursor: pointer;
+}
+
+.darkgreycard:hover {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  background-color: #7b7a7e;
+  cursor: pointer;
+}
+
+.footer {
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  text-align: start;
+  display: flex;
+  flex-grow: inherit;
+  align-items: center;
+}
+
+.footerpara li {
+  list-style-type: none;
+  vertical-align: middle;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  position: relative;
+  right: 50%;
+}
+
+.footer hr {
+  height: 400px;
+}
+
+h3 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  position: relative;
+  bottom: 40%;
+}
+
+.borderone {
+  height: 50px;
+  width: 20%;
+  background-color: black;
+  opacity: 0.3;
+  border-top-right-radius: 20px;
+  display: inline-block;
+}
+
+span {
+  height: 30px;
+  width: 60%;
+  background-color: black;
+  opacity: 0.3;
+  display: inline-block;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.bordertwo {
+  height: 50px;
+  width: 20%;
+  background-color: black;
+  opacity: 0.3;
+  border-top-left-radius: 20px;
+  display: inline-block;
+}
+/* @media (min-width:100px) and (max-width:1000px) {
+    body {
+
+    } 
+} */
