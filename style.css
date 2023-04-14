@@ -3,6 +3,7 @@ body {
   background-repeat: repeat;
   position: sticky;
   background-size: cover;
+  
 }
 
 .navigation {
@@ -505,6 +506,7 @@ span {
   border-top-left-radius: 20px;
   display: inline-block;
 }
+
 /* @media (min-width:100px) and (max-width:1000px) {
     body {
 
