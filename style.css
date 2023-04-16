@@ -22,6 +22,7 @@ body {
   display: inline-block;
   border-bottom: 5px solid grey;
   border-bottom-left-radius: 5px;
+
 }
 
 .pokedox {
@@ -29,6 +30,7 @@ body {
   padding: 25px;
   display: inline-block;
   border-bottom: 5px solid rgb(134, 1, 1);
+  
 }
 
 .games {
