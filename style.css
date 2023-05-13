@@ -2,6 +2,7 @@ body {
   background-image: url("images/b.jpg");
   background-repeat: repeat;
   position: sticky;
+  
   background-size: cover;
   
 }
